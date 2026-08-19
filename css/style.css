@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #081b36;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #081b36, #123d7a);
+}
+
+.logo {
+    width: 180px;
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+    background: white;
+    padding: 8px;
+}
+
+h1 {
+    margin: 20px 0 10px;
+    font-size: 42px;
+}
+
+header p {
+    margin: 0 0 25px;
+    font-size: 20px;
+}
+
+section {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.card {
+    background: #102a52;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 12px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff7b00;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+a {
+    color: #ff9d4d;
+}
+
+button.btn {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form button {
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px 15px;
+    background: #06152b;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 35px 15px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    .btn {
+        padding: 11px 18px;
+    }
+}
