@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://edu-loan-experts.nikitasaini0106.workers.dev/sitemap.xml
+Sitemap: https://edu-loan-experts.bytebuild.workers.dev/sitemap.xml

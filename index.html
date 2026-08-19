@@ -10,6 +10,26 @@
     <meta name="description"
         content="Edu Loan Experts provides education loan assistance for students, including domestic education loans, study abroad loans and documentation support in Kurukshetra, Haryana.">
 
+    <meta name="robots" content="index, follow">
+    <!-- Social sharing metadata -->
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="Education Loan Experts in Kurukshetra | Edu Loan Experts">
+
+    <meta property="og:description"
+        content="Edu Loan Experts provides education loan assistance, study abroad loan guidance and documentation support for students.">
+
+    <meta property="og:url" content="https://edu-loan-experts.bytebuild.workers.dev/">
+
+    <meta property="og:image" content="https://edu-loan-experts.bytebuild.workers.dev/assets/logo.jpeg">
+    <meta name="twitter:card" content="summary">
+
+    <meta name="twitter:title" content="Education Loan Experts | Edu Loan Experts">
+
+    <meta name="twitter:description"
+        content="Education loan assistance, study abroad loan guidance and documentation support.">
+
+    <meta name="twitter:image" content="https://edu-loan-experts.bytebuild.workers.dev/assets/logo.jpeg">
     <meta name="google-site-verification" content="MJnsgr6RUJsTqANgIIj-sxZ_puJ5_njwYfIgAu_QM_o" />
     <link rel="canonical" href="https://eduloanexperts.com/">
 
@@ -21,8 +41,8 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Edu Loan Experts",
-    "url": "https://edu-loan-experts.nikitasaini0106.workers.dev/",
-    "logo": "https://edu-loan-experts.nikitasaini0106.workers.dev/assets/logo.jpeg",
+    "url": "https://edu-loan-experts.bytebuild.workers.dev",
+    "logo": "https://edu-loan-experts.bytebuild.workers.dev/assets/logo.jpeg",
     "telephone": "+917056661395",
     "email": "loanexpertedu@gmail.com",
     "address": {
@@ -44,7 +64,7 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Edu Loan Experts",
-    "url": "https://edu-loan-experts.nikitasaini0106.workers.dev/"
+    "url": "https://edu-loan-experts.bytebuild.workers.dev"
 }
 </script>
 </head>
@@ -52,6 +72,12 @@
 <body>
 
     <header>
+        <nav class="navbar">
+            <a href="#services">Services</a>
+            <a href="#calculator">EMI Calculator</a>
+            <a href="#enquiry">Enquiry</a>
+            <a href="#contact">Contact</a>
+        </nav>
         <img class="logo" src="assets/logo.jpeg" alt="Edu Loan Experts Logo">
 
         <h1>Edu Loan Experts</h1>
@@ -67,7 +93,7 @@
     <main>
 
         <!-- Services Section -->
-        <section>
+        <section id="services">
             <h2>Our Education Loan Services</h2>
 
             <div class="card">
@@ -225,7 +251,7 @@
 
 
         <!-- EMI Calculator Section -->
-        <section>
+        <section id="calculator">
             <h2>Education Loan EMI Calculator</h2>
 
             <p>
@@ -264,7 +290,7 @@
         </section>
 
 
-        <section>
+        <section id="enquiry">
             <h2>Student Enquiry Form</h2>
 
             <form id="enquiryForm">
@@ -291,6 +317,12 @@
                 <textarea id="message" name="message" placeholder="Tell us about your education loan requirement"
                     rows="5"></textarea>
 
+                <p class="form-note">
+                    By submitting this enquiry, you agree that Edu Loan Experts
+                    may use the information provided to contact you regarding
+                    your education loan enquiry.
+                </p>
+
 
                 <button type="submit" class="btn">
                     Submit Enquiry
@@ -299,9 +331,23 @@
             </form>
         </section>
 
+        <section>
+            <h2>Need Help With Your Education Loan?</h2>
+
+            <p>
+                If you are planning higher education in India or abroad,
+                contact Edu Loan Experts to discuss your education loan
+                requirements and documentation.
+            </p>
+
+            <a class="btn" href="https://wa.me/917056661395" target="_blank" rel="noopener noreferrer">
+                Talk to Us on WhatsApp
+            </a>
+        </section>
+
 
         <!-- Contact Section -->
-        <section>
+        <section id="contact">
             <h2>Contact</h2>
 
             <p>
@@ -334,7 +380,21 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 Edu Loan Experts. All rights reserved.</p>
+        <p>
+            &copy; 2026 Edu Loan Experts. All rights reserved.
+        </p>
+
+        <p>
+            <a href="#services">Services</a>
+            |
+            <a href="#calculator">EMI Calculator</a>
+            |
+            <a href="#enquiry">Student Enquiry</a>
+            |
+            <a href="#contact">Contact</a>
+            |
+            <a href="privacy.html">Privacy Policy</a>
+        </p>
     </footer>
 
     <script src="js/script.js"></script>

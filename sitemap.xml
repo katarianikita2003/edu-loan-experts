@@ -3,7 +3,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://edu-loan-experts.nikitasaini0106.workers.dev/</loc>
+        <loc>https://edu-loan-experts.bytebuild.workers.dev</loc>
+    </url>
+
+    <url>
+        <loc>https://edu-loan-experts.bytebuild.workers.dev/privacy.html</loc>
     </url>
 
 </urlset>
