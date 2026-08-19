@@ -3,11 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://edu-loan-experts.bytebuild.workers.dev</loc>
+        <loc>https://edu-loan-experts.bytebuild.workers.dev/</loc>
+        <lastmod>2026-08-19</lastmod>
     </url>
 
     <url>
         <loc>https://edu-loan-experts.bytebuild.workers.dev/privacy.html</loc>
+        <lastmod>2026-08-19</lastmod>
     </url>
 
 </urlset>
